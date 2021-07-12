@@ -22,7 +22,6 @@ import {
   Header,
   LearnMoreLinks,
   Colors,
-  DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
@@ -58,9 +57,6 @@ const App = () => {
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Learn More</Text>
